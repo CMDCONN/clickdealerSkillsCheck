@@ -1,11 +1,11 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Google Sans', sans-serif;
+    padding: 120px
 }
 
 .topBar{
-    align-items: center;
-    text-align: center;
-    padding: 2px;
+    align-items: left;
+    text-align: left;
 }
 
 .promo-box {
@@ -14,24 +14,38 @@ body{
 }
 
 .promos {
-  width: 33.33%;
-  background-color: #f0f0f0; 
+  width: 30%;
   padding: 20px;
   box-sizing: border-box;
   margin: 10px 0;
-  text-align: center; 
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.promos img {
+  max-width: 600px;
+  max-height: 300px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.promos h1 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.promos p {
+  font-size: 16px;
+  color: #555;
 }
 
 
 @media (max-width: 1024px) {
-  .box {
-    width: 48%;
-  }
+
 }
 
 /* Smartphone view (up to 600px) */
 @media (max-width: 600px) {
-  .box {
-    width: 100%; 
-  }
+
 }
