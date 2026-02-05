@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
         promo2.addEventListener('click', function () {
             let promo2= "Focus Formula";
             console.log(promo2);
+            
         });
     }
 });
+
+
+
